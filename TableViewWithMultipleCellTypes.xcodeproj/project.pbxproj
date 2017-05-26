@@ -17,6 +17,8 @@
 		367B20191ED20BC0000F2BFA /* AttributeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 367B20171ED20BC0000F2BFA /* AttributeCell.xib */; };
 		367B201C1ED211F3000F2BFA /* EmailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B201A1ED211F3000F2BFA /* EmailCell.swift */; };
 		367B201D1ED211F3000F2BFA /* EmailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 367B201B1ED211F3000F2BFA /* EmailCell.xib */; };
+		367B201F1ED26CCB000F2BFA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B201E1ED26CCB000F2BFA /* HeaderView.swift */; };
+		367B20211ED26CE6000F2BFA /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 367B20201ED26CE6000F2BFA /* HeaderView.xib */; };
 		36C0EC7F1EB00BFC0039B330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0EC7E1EB00BFC0039B330 /* AppDelegate.swift */; };
 		36C0EC811EB00BFC0039B330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0EC801EB00BFC0039B330 /* ViewController.swift */; };
 		36C0EC841EB00BFC0039B330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C0EC821EB00BFC0039B330 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 		367B20171ED20BC0000F2BFA /* AttributeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttributeCell.xib; sourceTree = "<group>"; };
 		367B201A1ED211F3000F2BFA /* EmailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailCell.swift; sourceTree = "<group>"; };
 		367B201B1ED211F3000F2BFA /* EmailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailCell.xib; sourceTree = "<group>"; };
+		367B201E1ED26CCB000F2BFA /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		367B20201ED26CE6000F2BFA /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		36C0EC7B1EB00BFC0039B330 /* TableViewWithMultipleCellTypes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewWithMultipleCellTypes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C0EC7E1EB00BFC0039B330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C0EC801EB00BFC0039B330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 				367B20171ED20BC0000F2BFA /* AttributeCell.xib */,
 				367B201A1ED211F3000F2BFA /* EmailCell.swift */,
 				367B201B1ED211F3000F2BFA /* EmailCell.xib */,
+				367B201E1ED26CCB000F2BFA /* HeaderView.swift */,
+				367B20201ED26CE6000F2BFA /* HeaderView.xib */,
 			);
 			name = "Table View Cells";
 			sourceTree = "<group>";
@@ -172,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C0EC911EB00C4A0039B330 /* ServerData.json in Resources */,
+				367B20211ED26CE6000F2BFA /* HeaderView.xib in Resources */,
 				36C0EC891EB00BFC0039B330 /* LaunchScreen.storyboard in Resources */,
 				367B200D1ED204B2000F2BFA /* NamePictureCell.xib in Resources */,
 				367B201D1ED211F3000F2BFA /* EmailCell.xib in Resources */,
@@ -195,6 +202,7 @@
 				367B20181ED20BC0000F2BFA /* AttributeCell.swift in Sources */,
 				36C0EC811EB00BFC0039B330 /* ViewController.swift in Sources */,
 				36C0EC951EB00E290039B330 /* ProfileViewModel.swift in Sources */,
+				367B201F1ED26CCB000F2BFA /* HeaderView.swift in Sources */,
 				36C0EC7F1EB00BFC0039B330 /* AppDelegate.swift in Sources */,
 				367B200C1ED204B2000F2BFA /* NamePictureCell.swift in Sources */,
 				367B201C1ED211F3000F2BFA /* EmailCell.swift in Sources */,
